@@ -12,10 +12,10 @@
  *
  * NOTE: This example has been completed for you.
 */
-function addNumbers(num1, num2) {
-  return num1 + num2;
-}
-console.log(addNumbers(5,3));
+// function addNumbers(num1, num2) {
+//   return num1 + num2;
+// }
+// console.log(addNumbers(5,3));
 
 // ⭐️ Example Challenge end ⭐️
 
@@ -37,9 +37,12 @@ console.log(addNumbers(5,3));
  * the returned value should look like: 'Goodbye, Andy. Have a great day.'
  * 
 */
-function sayGoodbye(/* code here */) {
+function sayGoodbye(name) {
   /* code here */
+  return ('Goodbye, ' name + '.' + ' Have a great day.')
 }
+
+sayGoodbye(Andy);
 
 /**
  * ### Challenge `temperatureCtoF`
